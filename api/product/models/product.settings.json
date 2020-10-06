@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "name": "product"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "populateCreatorFields": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
